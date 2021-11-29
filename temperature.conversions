@@ -1,0 +1,14 @@
+// Today's temp of 293 Kelvin is a constant
+const kelvin =300;
+// Celsius calculation
+let celsius = kelvin - 273;
+// Fahrenheit calculation
+let fahrenheit = celsius * (9/5) + 32;
+// Round down to nearest whole number
+fahrenheit = Math.floor(fahrenheit);
+// Newton calculation
+let newton = celsius * (33/100)
+// Round down to the nearest whole number
+newton = Math.floor(newton)
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log(`The temperature is ${newton} degrees Newton.`);
