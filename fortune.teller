@@ -1,0 +1,5 @@
+function tellFortune(children, spouse, place, job) {
+  return 'You will be a ' + job + ' in ' + place + ', and married to ' + spouse + ' with ' + children + ' kids.'
+}
+
+tellFortune(4, 'Debra', 'London', 'Police Officer')
