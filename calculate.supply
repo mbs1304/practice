@@ -1,0 +1,11 @@
+function calculateSupply(age, amountPerDay) {
+  var maxAge = 80
+  
+  var difference = maxAge - age
+  
+  var maxSupply = (difference * 360) * amountPerDay
+  
+  return 'You will need ' + maxSupply + ' to last you to the ripe of age of ' + maxAge + '.'
+}
+
+calculateSupply(36, 2)
