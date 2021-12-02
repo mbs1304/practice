@@ -46,4 +46,4 @@ const calculateSleepDebt = () => {
   } 
   };
 
-console.log(calculateSleepDebt())
+calculateSleepDebt()
